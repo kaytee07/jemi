@@ -21,14 +21,14 @@ export function SheetDemo() {
       <SheetContent side="left">
         <SheetHeader>
           <div className="flex border-solid w-12 border-2 border-black w-13 p-2 justify-center items-center">
-            <h2>JEMI</h2>
+            <h2 >JEMI</h2>
           </div>
         </SheetHeader>
-        <nav className="flex flex-row gap-5 max-sm:hidden h-full">
+        <nav className="flex flex-col mt-10 gap-7">
             { navItems.map(({name, link}, i) => (
-                <a key={i} href={link} className="gap-5">
-                    <div className="flex ">
-                        <p className="text-bold text-black text-2xl">
+                <a key={i} href={link} className="flex items-center">
+                    <div className=" h-14 w-full flex border-solid  hover:border-b-2 items-center border-black">
+                        <p className="font-bold text-black text-2xl">
                             {name}
                         </p>
                     </div>
