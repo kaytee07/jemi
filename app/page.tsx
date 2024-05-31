@@ -5,6 +5,9 @@ import Services from '@/components/Services'
 import UpcomingEvent from '@/components/UpcomingEvent'
 import { navItems } from '@/data'
 import React from 'react'
+import AboutUs from './aboutus/page'
+import Aboutus from '@/components/Aboutus'
+import Leaders from '@/components/Leaders'
 
 const Jemi = () => {
   return (
@@ -13,7 +16,8 @@ const Jemi = () => {
       <Hero />
       <Services/>
       <UpcomingEvent/>
-      <Giving/>
+      <Giving/> 
+      <Leaders/>
     </main>
   )
 }

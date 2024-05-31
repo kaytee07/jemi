@@ -18,9 +18,6 @@ const UpcomingEvent = () => {
         Upcoming Events
       </h2>
       <div className="flex mt-12 flex-col md:flex-row gap-5 justify-center items-center">
-        {/* {services.map(({day, description, time, img}, i)=> (
-             <ProgramCard key={i} day={day} description={description} time={time} img={img} />
-        ))} */}
         <Carousel
           opts={{
             align: "start",
@@ -31,7 +28,7 @@ const UpcomingEvent = () => {
             {upcomingEvent.map(({day, description, img}, i)=> (
               <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <ProgramCard key={i} day={day} description={description} img={img} />
+                  <ProgramCard key={i} day={day} description={description} img={img} width="max-sm:w-[18rem]"/>
                 </div>
               </CarouselItem>
             ))}

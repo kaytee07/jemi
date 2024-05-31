@@ -2,11 +2,12 @@ import React from 'react'
 import { Card } from './card';
 import { Button } from './button';
 
-const ProgramCard = ({ day, description, time, img}: {day: string, description: string, time?: string, img: string}) => {
+const ProgramCard = ({ day, description, time, img, width}:
+     {day: string, description: string, time?: string, img: string, width?: string}) => {
   return (
     <div>
-      <Card className="w-[350px] h-[23rem]" >
-                <div className="h-[50%] bg-cover"
+      <Card className={`w-[350px] h-[23rem]`} >
+                <div className={`h-[50%] bg-cover ${width && width}`}
                 style={{
                  backgroundImage: `url(${img})`
                 }}
