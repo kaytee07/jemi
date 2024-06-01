@@ -9,7 +9,8 @@ const Leaders = () => {
     <h2 className="heading text-center scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
         Leaders
     </h2>
-    <div className="h-full rounded-md flex flex-col text-black antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="rounded-md flex mt-10 flex-col text-black antialiased bg-white
+     dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards
         items={testimonials}
         direction="right"

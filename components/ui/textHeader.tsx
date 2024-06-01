@@ -2,7 +2,7 @@ import React from 'react'
 import { Button } from './button'
 
 const TextHeader = ({header, body, button, buttonText, className}: 
-    {header: string, body:string, button?:boolean, buttonText?:string, className:string}) => {
+    {header?: string, body:string, button?:boolean, buttonText?:string, className:string}) => {
   return (
     <div className={className}>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl

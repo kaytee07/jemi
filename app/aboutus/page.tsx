@@ -1,8 +1,12 @@
+import Navbar from '@/components/Navbar'
+import { navItems } from '@/data'
 import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div>AboutUs</div>
+      <main>
+        <Navbar logo="JEMI" navItems={navItems}/>
+      </main>
   )
 }
 

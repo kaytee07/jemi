@@ -5,9 +5,10 @@ import Services from '@/components/Services'
 import UpcomingEvent from '@/components/UpcomingEvent'
 import { navItems } from '@/data'
 import React from 'react'
-import AboutUs from './aboutus/page'
-import Aboutus from '@/components/Aboutus'
+import ContactUs from '@/components/ContactUs'
 import Leaders from '@/components/Leaders'
+import Aboutus from '@/components/Aboutus'
+import Footer from '@/components/Footer'
 
 const Jemi = () => {
   return (
@@ -18,6 +19,8 @@ const Jemi = () => {
       <UpcomingEvent/>
       <Giving/> 
       <Leaders/>
+      <Aboutus/>
+      <Footer/>
     </main>
   )
 }
