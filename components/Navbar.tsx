@@ -11,7 +11,9 @@ const Navbar = ({logo, navItems,}: { logo: string, navItems: navLink[]}) => {
   return (
     <div className="w-full h-16 bg-black text-white flex justify-between px-3 items-center">
         <div className="flex border-solid border-2 border-white w-13 p-2 justify-center items-center">
+            <a href="/">
             {logo}
+            </a>
         </div>
         <nav className="flex gap-5 max-sm:hidden">
             { navItems.map(({name, link}, i) => (

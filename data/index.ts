@@ -1,24 +1,17 @@
 export const navItems = [
     {
-        name: "Gathering",
-        link: "/gathering"
+        name: "History",
+        link: "/history"
     },
     {
-        name: "Giving",
-        link: "/giving"
-    },
-    {
-        name: "Leaders",
-        link: "/leaders"
+        name: "Outreach",
+        link: "/outreach"
     },
     {
         name: "About us",
         link: "/aboutus"
     },
-    {
-        name: "Contact us",
-        link: "/contactus"
-    }
+
 ]
 
 export const services = [
@@ -91,49 +84,49 @@ export const testimonials = [
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism,",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Matilda Gbadoku",
+    title: " Senior Pastor",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism,",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Tony Zilevu",
+    title: "Youth Pastor",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, ",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Priscilla Creppy",
+    title: "Church Secretary",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism,",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Prince Creppy",
+    title: "Event Planner, Organizer",
   },
   {
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    name: "Joy Creppy",
+    title: "Social Media Handler",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/icons/facebook.svg",
+    img: "/icons/facebook(2).svg",
     link: "https://www.facebook.com/JesusElevationMinistries"
   },
   {
     id: 2,
-    img: "/icons/twitter.svg",
+    img: "/icons/twitter(1).svg",
     link: "www.twitter.com/JesusElevationMinistries"
   },
   {
     id: 3,
-    img: "/icons/instagram.svg",
+    img: "/icons/instagram(1).svg",
     link:"https://www.instagram.com/JesusElevationMinistries"
   },
 ];

@@ -5,8 +5,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="h-[40vh] bg-gray-400 text-white">
-        <h3 className="scroll-m-20 text-center text-black text-2xl font-semibold tracking-tight">
+    <footer className="h-[40vh] bg-black text-white">
+        <h3 className="scroll-m-20 text-center text-white text-2xl font-semibold tracking-tight">
             socials
         </h3>
       <div className="flex gap-7 mt-4 justify-center items-center">
@@ -17,25 +17,25 @@ const Footer = () => {
             ))}
       </div>
       <div className=" flex justify-center items-center mt-4 flex-col">
-        <h3 className="scroll-m-20 text-center text-black text-2xl font-semibold tracking-tight">
+        <h3 className="scroll-m-20 text-center text-white text-2xl font-semibold tracking-tight">
             Get in touch
         </h3>
-        <ul className="my-2 ml-6 list-none [&>li]:mt-2 text-black">
+        <ul className="my-2 ml-6 list-none [&>li]:mt-2 text-white">
         <li className="">
             <a href="tel:+1234567890" className="flex">
-                <img src="/icons/phone.svg" alt="phone" />
+                <img src="/icons/phone(1).svg" alt="phone" />
                 <h2>: +1234567890</h2>
             </a>
         </li>
         <li>
             <a href="mailto:feedback@example.com" className="flex">
-                <img src="/icons/mail.svg" alt="mail" />
+                <img src="/icons/mail(1).svg" alt="mail" />
                 <h2>: feedback@example.com</h2>
             </a>
         </li>
         <li>
            <a href="mailto:feedback@example.com" className="flex">
-                <img src="/icons/map-pin.svg" alt="mail" />
+                <img src="/icons/map-pin(1).svg" alt="mail" />
                 <h2>: feedback@example.com</h2>
             </a>
         </li>

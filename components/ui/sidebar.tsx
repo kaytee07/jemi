@@ -16,7 +16,7 @@ export function SheetDemo() {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button className="bg-transparent text-white" variant="outline">Open</Button>
+        <img src="/icons/hamburger.svg" alt="hamburger" />
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
