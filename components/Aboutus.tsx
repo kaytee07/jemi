@@ -1,5 +1,4 @@
 import React from 'react'
-import TextHeader from './ui/TextHeader'
 import { Button } from '@/components/ui/button'
 
 const Aboutus = () => {
