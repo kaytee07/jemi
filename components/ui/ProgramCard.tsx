@@ -1,6 +1,6 @@
 import React from 'react'
-import { Card } from './card';
-import { Button } from './button';
+import { Card } from '@/components/ui/card';
+import { Button } from '@/components/ui/button';
 
 const ProgramCard = ({ day, description, time, img, width}:
      {day: string, description: string, time?: string, img: string, width?: string}) => {

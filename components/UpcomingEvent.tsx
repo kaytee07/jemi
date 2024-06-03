@@ -1,7 +1,6 @@
 import { services, upcomingEvent } from '@/data'
 import React from 'react'
-import ProgramCard from './ui/ProgramCard'
-import { Card, CardContent } from "@/components/ui/card"
+import ProgramCard from '@/components/ui/ProgramCard'
 import {
   Carousel,
   CarouselContent,

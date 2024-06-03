@@ -1,5 +1,5 @@
 import React from 'react'
-import SheetDemo from './ui/sidebar'
+import SheetDemo from '@/components/ui/sidebar'
 
 type navLink = {
     name: string,

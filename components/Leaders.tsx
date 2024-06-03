@@ -1,6 +1,6 @@
  "use client";
 import React, { useEffect, useState } from "react";
-import { InfiniteMovingCards } from "./ui/InfiniteMovingCards";
+import { InfiniteMovingCards } from "@/components/ui/InfiniteMovingCards";
 import { testimonials } from "@/data";
 
 const Leaders = () => {

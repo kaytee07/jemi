@@ -1,8 +1,6 @@
 import React from 'react'
-import { Card } from './ui/card'
 import { services } from '@/data'
-import { Button } from './ui/button'
-import ProgramCard from './ui/ProgramCard'
+import ProgramCard from '@/components/ui/ProgramCard'
 
 const Services = () => {
   return (

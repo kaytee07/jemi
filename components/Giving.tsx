@@ -1,6 +1,6 @@
 import { giving } from '@/data'
 import React from 'react'
-import TextHeader from './ui/TextHeader'
+import TextHeader from '@/components/ui/TextHeader'
 
 const Giving = () => {
   return (
