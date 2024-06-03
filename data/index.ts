@@ -82,30 +82,35 @@ export const giving = [
 
 export const testimonials = [
   {
+    img:"/images/leader.jpg",
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism,",
     name: "Matilda Gbadoku",
     title: " Senior Pastor",
   },
   {
+    img:"/images/leader2.jpg",
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism,",
     name: "Tony Zilevu",
     title: "Youth Pastor",
   },
   {
+    img:"/images/leader3.jpg",
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism, ",
     name: "Priscilla Creppy",
     title: "Church Secretary",
   },
   {
+    img:"/images/leader4.jpg",
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism,",
     name: "Prince Creppy",
     title: "Event Planner, Organizer",
   },
   {
+    img:"/images/joy.jpg",
     quote:
       "Collaborating with Adrian was an absolute pleasure. His professionalism",
     name: "Joy Creppy",
