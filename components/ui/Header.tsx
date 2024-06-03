@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button } from '@/components/ui/button'
 
-const TextHeader = ({header, body, button, buttonText, className}: 
+const Header = ({header, body, button, buttonText, className}: 
     {header?: string, body:string, button?:boolean, buttonText?:string, className:string}) => {
   return (
     <div className={className}>
@@ -19,4 +19,4 @@ const TextHeader = ({header, body, button, buttonText, className}:
   )
 }
 
-export default TextHeader
+export default Header
