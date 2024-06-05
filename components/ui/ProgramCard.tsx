@@ -23,8 +23,11 @@ const ProgramCard = ({ day, description, time, img, width}:
                     <p className="font-bold">
                         {time}
                     </p>
+                    
                     <Button variant="outline" className="mt-2 w-[30%]">
+                        <a href="https://maps.app.goo.gl/tYoPvHB7HxVa3BQi7?g_st=iw" target="_blank" className="flex">
                         Location
+                        </a>
                     </Button>
                 </div>
         </Card>

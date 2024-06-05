@@ -16,10 +16,7 @@ const Hero = () => {
             <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-white text-center">
                 Inspiring People to fealessly follow Jesus and change the world
                 </h1> 
-            <Button variant="outline" className=" hover:bg-black hover:opacity-[50%] mt-4 bg-transparent
-             border-white border-solid border-2 cursor-pointer">
-                <span className="text-white">Join us now</span>
-            </Button>
+           
         </div>
     </div>
   )

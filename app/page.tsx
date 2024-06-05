@@ -18,7 +18,7 @@ const Jemi = () => {
       <Services/>
       <UpcomingEvent/>
       <Giving/> 
-      <Leaders/>
+      {/* <Leaders/> */}
       <Aboutus/>
       <Footer/>
     </main>

@@ -5,7 +5,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer className="h-[40vh] bg-black text-white">
+    <footer className=" bg-black text-white">
         <h3 className="scroll-m-20 text-center text-white text-2xl font-semibold tracking-tight">
             socials
         </h3>
@@ -22,23 +22,29 @@ const Footer = () => {
         </h3>
         <ul className="my-2 ml-6 list-none [&>li]:mt-2 text-white">
         <li className="">
-            <a href="tel:+1234567890" className="flex">
+            <a href="tel:+233243431369" className="flex">
                 <img src="/icons/phone(1).svg" alt="phone" />
-                <h2>: +1234567890</h2>
+                <h2>: +233243431369 / +233553798601</h2>
             </a>
         </li>
         <li>
-            <a href="mailto:feedback@example.com" className="flex">
+            <a href="mailto: jesuselevationministries@gmail.com" className="flex">
                 <img src="/icons/mail(1).svg" alt="mail" />
-                <h2>: feedback@example.com</h2>
+                <h2>:  jesuselevationministries@gmail.com</h2>
             </a>
         </li>
         <li>
-           <a href="mailto:feedback@example.com" className="flex">
+           <a href="https://maps.app.goo.gl/tYoPvHB7HxVa3BQi7?g_st=iw" target="_blank" className="flex">
                 <img src="/icons/map-pin(1).svg" alt="mail" />
-                <h2>: feedback@example.com</h2>
+                <h2>: Tetegu, Accra. Close to Holy Cross School</h2>
             </a>
-        </li>
+        </li> 
+        <li>
+           <a href="https://maps.app.goo.gl/tYoPvHB7HxVa3BQi7?g_st=iw" target="_blank" className="flex">
+                <img src="/icons/mailbox.svg" alt="mail" />
+                <h2>: P.O. BOX 6753, Accra-North.</h2>
+            </a>
+        </li> 
         </ul>
       </div>
       <div className="contact">
