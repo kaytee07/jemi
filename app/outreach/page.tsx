@@ -1,5 +1,6 @@
 import Navbar from '@/components/Navbar'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
+import GraphicCard from '@/components/ui/graphicCard'
 import ProgramCard from '@/components/ui/ProgramCard'
 import { careGallery, navItems } from '@/data'
 import React from 'react'
@@ -38,10 +39,10 @@ const page = () => {
           className="w-full md:w-[87%]"
         >
           <CarouselContent className="w-[70rem]">
-            {careGallery.map(({id, img}, i)=> (
-              <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
+            {careGallery.map(({id, img})=> (
+              <CarouselItem key={id} className="md:basis-1/2 lg:basis-1/3">
                 <div className="p-1">
-                  <ProgramCard key={id} img={img} width="max-sm:w-[18rem]"/>
+                  <GraphicCard id={id} img={img} width="max-sm:w-[18rem]"/>
                 </div>
               </CarouselItem>
             ))}

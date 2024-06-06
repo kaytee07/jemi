@@ -15,12 +15,12 @@ const page = () => {
                 testimonials.map(({img, name, title, quote}) => (
                     <>
                     <img className="md:w-[50%]" src={img} alt="history" />
-                        <span className=" text-sm leading-[1.6] w-full text-black font-bold">
+                        <h3 className=" text-lg leading-[1.6] w-full text-black font-bold">
                             {name}
-                        </span>
-                        <span className=" text-sm leading-[1.6] text-white-200 font-normal">
+                        </h3>
+                        <h3 className=" text-base leading-[1.6] text-white-200 font-bold">
                             {title}
-                        </span>
+                        </h3>
                     <div className="md:flex md:flex-row md:justify-evenly">
                         <p className="leading-7 text-justify md:w-[40%]">
                         {quote}

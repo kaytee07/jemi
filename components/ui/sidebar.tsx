@@ -21,7 +21,9 @@ export function SheetDemo() {
       <SheetContent side="left">
         <SheetHeader>
           <div className="flex border-solid w-12 border-2 border-black w-13 p-2 justify-center items-center">
-            <h2 >JEMI</h2>
+            <a href="/">
+            <h2>JEMI</h2>
+            </a>
           </div>
         </SheetHeader>
         <nav className="flex flex-col mt-10 gap-7">
