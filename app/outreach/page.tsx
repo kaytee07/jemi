@@ -1,5 +1,7 @@
 import Navbar from '@/components/Navbar'
-import { navItems } from '@/data'
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
+import ProgramCard from '@/components/ui/ProgramCard'
+import { careGallery, navItems } from '@/data'
 import React from 'react'
 
 const page = () => {
@@ -26,6 +28,27 @@ const page = () => {
             <p className="leading-7">
               Our goal is to make a tangible difference in the lives of those we serve, reflecting Christ&apos;s love and compassion in every action.
             </p>
+            <h3 className="scroll-m-20 text-black text-2xl font-semibold tracking-tight">
+              Gallery
+            </h3>
+           <Carousel
+          opts={{
+            align: "start",
+          }}
+          className="w-full md:w-[87%]"
+        >
+          <CarouselContent className="w-[70rem]">
+            {careGallery.map(({id, img}, i)=> (
+              <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <ProgramCard key={id} img={img} width="max-sm:w-[18rem]"/>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious />
+          <CarouselNext />
+        </Carousel>
           </div>
           </div>
       </main>

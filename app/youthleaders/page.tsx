@@ -8,7 +8,7 @@ const page = () => {
         <Navbar logo="JEMI" navItems={navItems}/>
         <div className="md:mx-[10rem] max-sm:px-10 py-5">
           <h2 className="heading text-center scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl">
-            Our Leaders
+            Youth Leaders
           </h2>
           <div className="flex mt-7  flex-col gap-5 justify-evenly ">
             {
@@ -22,7 +22,7 @@ const page = () => {
                             {title}
                         </span>
                     <div className="md:flex md:flex-row md:justify-evenly">
-                        <p className="leading-7 text-justify md:w-[40%]">
+                        <p className="leading-7 text-justify">
                         {quote}
                         </p>
                 </div>

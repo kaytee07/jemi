@@ -106,7 +106,7 @@ export const youthLeaders = [
   {
     img:"/images/leader4.jpg",
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism,",
+      "- Event Planner, Organizer of Donations and Missionary Works: Prince Creppy Prince Creppy’s journey as Event Planner, Organizer of Donations, and Missionary Works Coordinator at Jesus Elevation Ministries International is marked by dedication, compassion, and faith. From a young age, Prince showed empathy and a desire to help others, participating in local initiatives. His parents, believers in giving, nurtured this spirit. Deeply involved in the church, Prince’s organizational skills and passion for outreach were evident. He coordinated church events meticulously, ensuring their success. Before a transformative trip to Cape Coast, Prince taught ICT and worked as a sports academy trainer. Volunteering at an orphanage school there solidified his calling. Witnessing the children’s faith and hardships profoundly impacted him. Returning from Cape Coast, Prince became more determined to make a difference. His innovative fundraising approaches significantly increased the church’s outreach, inspiring others to participate. Under Prince’s leadership, Jesus Elevation Ministries International’s outreach programs have grown tremendously. His service and organizational prowess make him an invaluable asset, demonstrating that faith and dedication can significantly impact lives.",
     name: "Prince Creppy",
     title: "Event Planner, Organizer",
   },
@@ -118,7 +118,7 @@ export const youthLeaders = [
     title: "Social Media Handler",
   },
   {
-    img:"/images/joy.jpg",
+    img:"/images/blankprofile.webp",
     quote:
       "Mercy Cobbinah, Choir Leader at Jesus Elevation Ministries, guides with passion and skill, cultivating harmonious worship experiences. Her leadership inspires members to sing with fervor and unity, enhancing the congregation’s spiritual journey through soul-stirring melodies and uplifting hymns. Mercy’s dedication enriches the church’s musical ministry, fostering vibrant worship.",
     name: "Mercy Cobbinah",
@@ -136,14 +136,14 @@ export const testimonials = [
   },
  
     {
-    img:"/images/joy.jpg",
+    img:"/images/blankprofile.webp",
     quote:
       "Gifty Zilevu, Music Director at Jesus Elevation Ministries, leads with passion and talent, uplifting congregants through worship. Her dedication to excellence and spiritual sensitivity ensures the music ministry enriches the church’s spiritual experience, fostering a deep connection with God through heartfelt praise and worship.",
     name: "Gifty Zilevu",
     title: "Music Director",
   },
     {
-    img:"/images/joy.jpg",
+    img:"/images/blankprofile.webp",
     quote:
       "Margaret Cobbinah, Church Accountant at Jesus Elevation Ministries, diligently oversees financial matters with integrity and precision. Her expertise ensures responsible stewardship of resources, maintaining transparency and accountability within the ministry. Margaret’s dedication to financial excellence supports the church’s mission and facilitates sustainable growth and impact.",
     name: "Margaret Cobbinah",
@@ -169,4 +169,19 @@ export const socialMedia = [
     link:"https://www.instagram.com/JesusElevationMinistries"
   },
 ];
+
+export const careGallery = [
+  {
+    id: "1",
+    img:"/images/care1.jpg"
+  },
+  {
+    id: "2",
+    img:"/images/care2.jpg"
+  },
+  {
+    id: "3",
+    img:"/images/care3.jpg"
+  },
+]
 
