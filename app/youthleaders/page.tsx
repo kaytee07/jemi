@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { navItems, testimonials, youthLeaders } from '@/data'
 import React from 'react'
@@ -31,6 +32,7 @@ const page = () => {
             }
             </div>
         </div>
+        <Footer/>
     </div>
   )
 }

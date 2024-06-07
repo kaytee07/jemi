@@ -1,13 +1,5 @@
 export const navItems = [
     {
-        name: "History",
-        link: "/history"
-    },
-    {
-        name: "Outreach",
-        link: "/outreach"
-    },
-    {
         name: "About us",
         link: "/aboutus"
     },
@@ -18,7 +10,16 @@ export const navItems = [
     {
       name: "Youth Leaders",
       link: "/youthleaders"
-    }
+    },
+    {
+        name: "Outreach",
+        link: "/outreach"
+    },
+    {
+        name: "History",
+        link: "/history"
+    },
+    
 
 ]
 

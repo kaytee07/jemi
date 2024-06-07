@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { navItems, testimonials } from '@/data'
 import React from 'react'
@@ -22,7 +23,7 @@ const page = () => {
                             {title}
                         </h3>
                     <div className="md:flex md:flex-row md:justify-evenly">
-                        <p className="leading-7 text-justify md:w-[40%]">
+                        <p className="leading-7 text-justify">
                         {quote}
                         </p>
                 </div>
@@ -31,6 +32,7 @@ const page = () => {
             }
             </div>
         </div>
+        <Footer/>
     </div>
   )
 }

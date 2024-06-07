@@ -1,7 +1,7 @@
+import Footer from '@/components/Footer'
 import Navbar from '@/components/Navbar'
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from '@/components/ui/carousel'
-import GraphicCard from '@/components/ui/graphicCard'
-import ProgramCard from '@/components/ui/ProgramCard'
+import GraphicCard from '@/components/ui/GraphicCard'
 import { careGallery, navItems } from '@/data'
 import React from 'react'
 
@@ -52,6 +52,7 @@ const page = () => {
         </Carousel>
           </div>
           </div>
+          <Footer/>
       </main>
   )
 }
