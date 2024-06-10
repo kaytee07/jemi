@@ -10,7 +10,7 @@ type navLink = {
 const Navbar = ({logo, navItems,}: { logo: string, navItems: navLink[]}) => {
   return (
     <div className="w-full h-16 bg-black text-white flex justify-between px-3 items-center">
-        <div className="flex w-13 justify-center items-center">
+        <div className="flex w-13 justify-center items-center md:mt-3">
             <a href="/">
             <img 
                 src="/images/jemitrans.png"
