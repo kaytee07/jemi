@@ -26,7 +26,8 @@ const UpcomingEvent = () => {
           <CarouselContent className="w-[70rem]">
             {upcomingEvent.map(({day, description, img}, i)=> (
               <CarouselItem key={i} className="md:basis-1/2 lg:basis-1/3">
-                <div className="p-1">
+                <div className="p-1"
+                >
                   <ProgramCard key={i} day={day} description={description} img={img} width="max-sm:w-[18rem]"/>
                 </div>
               </CarouselItem>
@@ -39,5 +40,7 @@ const UpcomingEvent = () => {
     </div>
   )
 }
+
+//#9a4f12
 
 export default UpcomingEvent
