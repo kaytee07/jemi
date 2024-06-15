@@ -23,7 +23,7 @@ export function SheetDemo() {
           <div className="">
             <a href="/">
             <img 
-                src="/images/jemitrans.png"
+                src="/images/jemilogo2.png"
                  alt="logo" 
                  className="w-40 h-40"
                  />
