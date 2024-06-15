@@ -30,7 +30,7 @@ export function SheetDemo() {
             </a>
           </div>
         </SheetHeader>
-        <nav className="flex flex-col mt-10 gap-7">
+        <nav className="flex flex-col mt-6 gap-7">
             { navItems.map(({name, link}, i) => (
                 <a key={i} href={link} className="flex items-center">
                     <div className=" h-14 w-full flex border-solid  hover:border-b-2 items-center border-black">
