@@ -14,9 +14,11 @@ const Aboutus = () => {
            Matilda Gbadoku. What began as a small gathering of devoted believers has blossomed into a thriving spiritual family, 
           united by a shared passion for Christ and a commitment to His teachings.
         </p>
-        <Button className="mt-6 md:mt-2">
+        <a href="/aboutus">
+        <Button className="mt-6 md:mt-2 bg-black">
                 Read more
         </Button>
+        </a>
       </div>
     </div>
   )

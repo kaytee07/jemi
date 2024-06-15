@@ -133,7 +133,7 @@ export const testimonials = [
     quote:
       "From the tender age of 15, I, Matilda Gbadoku, felt a burning passion for the work of God. I began my spiritual journey as a Sunday school teacher, eagerly participating in various church programs and personal evangelism. My zeal for spreading the Gospel only grew stronger as I progressed through high school, where the teachings of Christ deeply resonated with me.After completing my education, I ventured into the business world. However, my heart remained committed to God’s work. I continued to engage in part-time ministry, preaching in public transportation, assisting the needy, supporting orphans, making donations, and empowering women through various initiatives. Despite the challenges and the path not unfolding as I initially envisioned, my dedication to serving God never wavered. Eventually, I embraced my true calling and entered full-time ministry, devoting my life entirely to spreading the Gospel and serving others. This journey has been a testament to God’s faithfulness and the transformative power of unwavering devotion. Jesus Elevation Ministries International stands as a beacon of hope and faith, a living testimony to the incredible work God can do through those who are dedicated to His service.",
     name: "Matilda Gbadoku",
-    title: " Senior Pastor/ Founder",
+    title: " Founder/ Senior Pastor",
   },
  
     {

@@ -20,9 +20,13 @@ export function SheetDemo() {
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
-          <div className="flex border-solid w-12 border-2 border-black w-13 p-2 justify-center items-center">
+          <div className="">
             <a href="/">
-            <h2>JEMI</h2>
+            <img 
+                src="/images/jemitrans.png"
+                 alt="logo" 
+                 className="w-40 h-40"
+                 />
             </a>
           </div>
         </SheetHeader>
