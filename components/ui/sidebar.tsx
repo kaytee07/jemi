@@ -25,7 +25,7 @@ export function SheetDemo() {
             <img 
                 src="/images/jemilogo2.png"
                  alt="logo" 
-                 className="w-40 h-40"
+                 className="w-40 h-20"
                  />
             </a>
           </div>
