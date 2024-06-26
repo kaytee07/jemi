@@ -23,7 +23,7 @@ const page = () => {
                             {title}
                         </h3>
                     <div className="md:flex md:flex-row md:justify-evenly">
-                        <p className="leading-7 text-justify">
+                        <p className="leading-7 text-left">
                         {quote}
                         </p>
                 </div>

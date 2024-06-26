@@ -135,22 +135,28 @@ export const testimonials = [
     name: "Matilda Gbadoku",
     title: " Founder/ Senior Pastor",
   },
- 
-    {
-    img:"/images/blankprofile.webp",
+   {
+    img:"/images/leader3.jpg",
     quote:
-      "Gifty Zilevu, Music Director at Jesus Elevation Ministries, leads with passion and talent, uplifting congregants through worship. Her dedication to excellence and spiritual sensitivity ensures the music ministry enriches the church’s spiritual experience, fostering a deep connection with God through heartfelt praise and worship.",
-    name: "Gifty Zilevu",
-    title: "Music Director",
+      "Priscilla Creppy, Church Secretary at Jesus Elevation Ministries, efficiently manages administrative tasks with grace and diligence. Her organizational skills and attention to detail ensure smooth operations, facilitating effective communication within the church community. Priscilla’s commitment to service enhances the overall functioning of the ministry, fostering a welcoming environment for all.",
+    name: "Priscilla Creppy",
+    title: "Church Secretary",
   },
-    {
+  {
     img:"/images/blankprofile.webp",
     quote:
       "Margaret Cobbinah, Church Accountant at Jesus Elevation Ministries, diligently oversees financial matters with integrity and precision. Her expertise ensures responsible stewardship of resources, maintaining transparency and accountability within the ministry. Margaret’s dedication to financial excellence supports the church’s mission and facilitates sustainable growth and impact.",
     name: "Margaret Cobbinah",
     title: "Church Accountant",
   },
-
+  {
+    img:"/images/blankprofile.webp",
+    quote:
+      "Gifty Zilevu, Music Director at Jesus Elevation Ministries, leads with passion and talent, uplifting congregants through worship. Her dedication to excellence and spiritual sensitivity ensures the music ministry enriches the church’s spiritual experience, fostering a deep connection with God through heartfelt praise and worship.",
+    name: "Gifty Zilevu",
+    title: "Music Director",
+  },
+    
 ];
 
 export const socialMedia = [
