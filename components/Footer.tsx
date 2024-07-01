@@ -24,7 +24,7 @@ const Footer = () => {
         <li className="">
             <a href="tel:+233578267649" className="flex">
                 <img src="/icons/phone(1).svg" alt="phone" />
-                <h2>: 0578267649</h2>
+                <h2>: +233243431369 / +233578267649</h2>
             </a>
         </li>
         <li>
