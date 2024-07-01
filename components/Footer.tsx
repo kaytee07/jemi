@@ -22,9 +22,9 @@ const Footer = () => {
         </h3>
         <ul className="my-2 ml-6 list-none [&>li]:mt-2 text-white">
         <li className="">
-            <a href="tel:+233243431369" className="flex">
+            <a href="tel:+233578267649" className="flex">
                 <img src="/icons/phone(1).svg" alt="phone" />
-                <h2>: +233243431369 / +233553798601</h2>
+                <h2>: 0578267649</h2>
             </a>
         </li>
         <li>
