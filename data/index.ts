@@ -190,5 +190,69 @@ export const careGallery = [
     id: "3",
     img:"/images/care3.jpg"
   },
+  {
+    id: "4",
+    img:"/images/care4.jpg"
+  },
+  {
+    id: "5",
+    img:"/images/care5.jpg"
+  },
+  {
+    id: "6",
+    img:"/images/care6.jpg"
+  },
+  {
+    id: "7",
+    img:"/images/care7.jpg"
+  },
+  {
+    id: "8",
+    img:"/images/care3.jpg"
+  },
+  {
+    id: "3",
+    img:"/images/care8.jpg"
+  },
+  {
+    id: "9",
+    img:"/images/care9.jpg"
+  },
+  {
+    id: "10",
+    img:"/images/care10.jpg"
+  },
+  {
+    id: "11",
+    img:"/images/care11.jpg"
+  },
+  {
+    id: "12",
+    img:"/images/care12.jpg"
+  },
+  {
+    id: "13",
+    img:"/images/care13.jpg"
+  },
+  {
+    id: "14",
+    img:"/images/care14.jpg"
+  },
+  {
+    id: "15",
+    img:"/images/care15.jpg"
+  },
+  {
+    id: "16",
+    img:"/images/care16.jpg"
+  },
+  {
+    id: "17",
+    img:"/images/care17.jpg"
+  },
+  {
+    id: "18",
+    img:"/images/care18.jpg"
+  },
 ]
 
