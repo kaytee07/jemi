@@ -191,8 +191,8 @@ export const careGallery = [
     img:"/images/care3.jpg"
   },
   {
-    id: "4",
-    img:"/images/care4.jpg"
+    id: "19",
+    img:"/images/care19.jpg"
   },
   {
     id: "5",
