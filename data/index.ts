@@ -28,13 +28,13 @@ export const services = [
         day: "Sunday",
         description: "Inspirational worship service",
         time: "9:00am - 12:00pm",
-        img: "/images/weekly1.avif"
+        img: "/images/weekly1.jpg"
     },
     {
         day: "Tuesday",
         description: "Teaching the undiluted word of God",
         time: "9:00am - 12:00pm",
-        img: "/images/weekly2.avif"
+        img: "/images/weekly2.jpg"
     },
     {
         day: "Thursday",
