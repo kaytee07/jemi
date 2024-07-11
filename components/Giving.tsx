@@ -1,6 +1,8 @@
 import { giving } from '@/data'
 import React from 'react'
 import TextHeader from './ui/Header'
+import ProgramCard from './ui/ProgramCard'
+import { CardWithForm } from './paymentCard'
 
 const Giving = () => {
   return (

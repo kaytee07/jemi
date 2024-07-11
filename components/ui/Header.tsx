@@ -10,9 +10,11 @@ const Header = ({header, body, button, buttonText, className}:
         <p className="leading-7 [&:not(:first-child)]:mt-6 text">{body}</p>
         <div className="flex justify-center mt-2">
         {button && (
+            <a href="https://paystack.com/pay/give_qwe">
             <Button className="w-27">
                 {buttonText}
             </Button>
+            </a>
         )}
         </div>
     </div>

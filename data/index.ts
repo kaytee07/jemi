@@ -163,12 +163,12 @@ export const socialMedia = [
   {
     id: 1,
     img: "/icons/facebook(2).svg",
-    link: "https://www.facebook.com/JesusElevationMinistries"
+    link: "https://www.instagram.com/jesuselevationministries_int?igsh=MTdoczh0MzMydHY1bw=="
   },
   {
     id: 2,
     img: "/icons/twitter(1).svg",
-    link: "www.twitter.com/JesusElevationMinistries"
+    link: "https://x.com/Jesuselevation"
   },
   {
     id: 3,
@@ -183,10 +183,6 @@ export const careGallery = [
     img:"/images/care1.jpg"
   },
   {
-    id: "2",
-    img:"/images/care2.jpg"
-  },
-  {
     id: "3",
     img:"/images/care3.jpg"
   },
@@ -197,26 +193,6 @@ export const careGallery = [
   {
     id: "5",
     img:"/images/care5.jpg"
-  },
-  {
-    id: "6",
-    img:"/images/care6.jpg"
-  },
-  {
-    id: "7",
-    img:"/images/care7.jpg"
-  },
-  {
-    id: "8",
-    img:"/images/care3.jpg"
-  },
-  {
-    id: "3",
-    img:"/images/care8.jpg"
-  },
-  {
-    id: "9",
-    img:"/images/care9.jpg"
   },
   {
     id: "10",
@@ -253,6 +229,18 @@ export const careGallery = [
   {
     id: "18",
     img:"/images/care18.jpg"
+  },
+  {
+    id: "22",
+    img:"/images/care22.jpg"
+  },
+  {
+    id: "23",
+    img:"/images/care23.jpg"
+  },
+  {
+    id: "24",
+    img:"/images/care24.jpg"
   },
 ]
 
