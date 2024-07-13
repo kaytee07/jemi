@@ -81,7 +81,7 @@ export const giving = [
     },
     {
         header: "Bank Transfer",
-        body: `Account number:12-3157-0083012-00 Particulars: Your full name Code: Your tithe number Reference: Tithe`,
+        body: `Account number:2400951324212 Particulars: Your full name Code: Your tithe number Reference: Tithe`,
     },
     {
         header: "In-Person Giving",
@@ -163,7 +163,7 @@ export const socialMedia = [
   {
     id: 1,
     img: "/icons/facebook(2).svg",
-    link: "https://www.instagram.com/jesuselevationministries_int?igsh=MTdoczh0MzMydHY1bw=="
+    link: ""
   },
   {
     id: 2,
@@ -173,7 +173,7 @@ export const socialMedia = [
   {
     id: 3,
     img: "/icons/instagram(1).svg",
-    link:"https://www.instagram.com/JesusElevationMinistries"
+    link:"https://www.instagram.com/jesuselevationministries_int?igsh=MTdoczh0MzMydHY1bw=="
   },
 ];
 
