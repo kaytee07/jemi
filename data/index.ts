@@ -40,7 +40,7 @@ export const services = [
         day: "Thursday",
         description: "Elevation hour, prayers and counselling",
         time: "9:00am - 12:00pm",
-        img: "/images/thursday.avif"
+        img: "/images/weekly4.jpg"
     }
 ]
 
@@ -241,6 +241,18 @@ export const careGallery = [
   {
     id: "24",
     img:"/images/care24.jpg"
+  },
+  {
+    id: "25",
+    img:"/images/care30.jpg"
+  },
+  {
+    id: "26",
+    img:"/images/care31.jpg"
+  },
+  {
+    id: "27",
+    img:"/images/care33.jpg"
   },
 ]
 
