@@ -1,8 +1,15 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import { Button } from '@/components/ui/button'
+
 
 const Header = ({header, body, button, buttonText, className}: 
     {header?: string, body:string, button?:boolean, buttonText?:string, className:string}) => {
+
+      const handleClick = () => {
+        alert("We accept donations in cedis. Kindly get the Ghana cedis equivalent of your donation")
+      }
+
   return (
     <div className={className}>
         <h2 className="scroll-m-20 border-b pb-2 text-3xl
@@ -11,7 +18,10 @@ const Header = ({header, body, button, buttonText, className}:
         <div className="flex justify-center mt-2">
         {button && (
             <a href="https://paystack.com/pay/give_qwe">
-            <Button className="w-27">
+            <Button 
+            className="w-27 "
+            onClick={handleClick}
+            >
                 {buttonText}
             </Button>
             </a>
@@ -22,3 +32,4 @@ const Header = ({header, body, button, buttonText, className}:
 }
 
 export default Header
+// 
