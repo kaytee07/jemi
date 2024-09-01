@@ -7,7 +7,9 @@ const Header = ({header, body, button, buttonText, className}:
     {header?: string, body:string, button?:boolean, buttonText?:string, className:string}) => {
 
       const handleClick = () => {
-        alert("We accept donations in all currencies, but our platform processes in Ghana Cedis(GHS). Please convert your donation to GHS before proceeding. Select 'close' or 'ok' to proceed")
+        if (confirm("We accept donations in all currencies, but our platform processes in Ghana Cedis(GHS). Please convert your donation to GHS before proceeding. Select 'close' or 'ok' to proceed")){
+          window.location.href = "https://paystack.com/pay/give_qwe"
+        }
       }
 
   return (
@@ -17,14 +19,12 @@ const Header = ({header, body, button, buttonText, className}:
         <p className="leading-7 [&:not(:first-child)]:mt-6 text">{body}</p>
         <div className="flex justify-center mt-2">
         {button && (
-            <a href="https://paystack.com/pay/give_qwe">
             <Button 
             className="w-27 "
             onClick={handleClick}
             >
                 {buttonText}
             </Button>
-            </a>
         )}
         </div>
     </div>
