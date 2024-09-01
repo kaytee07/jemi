@@ -7,7 +7,7 @@ const Header = ({header, body, button, buttonText, className}:
     {header?: string, body:string, button?:boolean, buttonText?:string, className:string}) => {
 
       const handleClick = () => {
-        if (confirm("We accept donations in all currencies, but our platform processes in Ghana Cedis(GHS). Please convert your donation to GHS before proceeding. Select 'close' or 'ok' to proceed")){
+        if (confirm("We accept donations in all currencies, but our platform processes in Ghana Cedis(GHS). Please convert your donation to GHS before proceeding. Select 'ok' to proceed")){
           window.location.href = "https://paystack.com/pay/give_qwe"
         }
       }
